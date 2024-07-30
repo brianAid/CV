@@ -1,0 +1,42 @@
+*{
+  margin: 0 auto;
+  line-height: calc(1em + 0.5rem);
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0 2ch;
+}
+#dark{
+  font-family: 'General Sans', sans-serif;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+}
+#light{
+  font-family: 'General Sans', sans-serif;
+}
+img,
+picture,
+video,
+canvas,
+svg{
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+button{
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+}
+a{
+  color: var(--clr-rose);
+  text-decoration: none !important;
+}
+strong{
+  color: var(--clr-indigo);
+}

@@ -109,7 +109,7 @@
   max-width: 800px;
 }
 .about{
-  color: var(--clr-slate-400);
+  color: var(--clr-slate-600);
   display: grid;
   grid-template-columns: repeat(2,1fr);
   padding: 6ch 5%;
@@ -132,7 +132,7 @@
   flex: 1;
 }
 .about-ul li a{
-  color: var(--clr-light) !important;
+  color: var(--clr-slate-600) !important;
 }
 .about-title{
   font-size: var(--size-2xl);

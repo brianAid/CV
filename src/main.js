@@ -1,6 +1,6 @@
 const body = document.body;
 console.log(body.id);
-(localStorage.getItem("background")?body.id =localStorage.getItem('background'):localStorage.setItem("background","light"));
+(localStorage.getItem("background")?body.id =localStorage.getItem('background'):localStorage.setItem("background","dark"));
 
 function changeBg(){
   switch (localStorage.getItem("background")) {

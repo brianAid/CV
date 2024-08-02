@@ -178,6 +178,13 @@
   height:200px;
   overflow: auto;
 }
+#contact{
+  max-width: 900px;
+  margin: auto;
+}
+.contact h1{
+  margin-bottom: 1ch;
+}
 @media (max-width: 640px) {
   .my-contact {
     grid-template-columns: 1fr;
